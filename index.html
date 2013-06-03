@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <script src="./cryptojs/components/core.js"></script>
+    <script src="./cryptojs/components/lib-typedarrays.js"></script>
+    <script src="./cryptojs/components/x64-core.js"></script>
+    <script src="./cryptojs/components/enc-utf16.js"></script>
+    <script src="./cryptojs/components/enc-base64.js"></script>
+    <script src="./cryptojs/components/md5.js"></script>
+    <script src="./cryptojs/components/sha1.js"></script>
+    <script src="./cryptojs/components/sha256.js"></script>
+    <script src="./cryptojs/components/sha224.js"></script>
+    <script src="./cryptojs/components/sha512.js"></script>
+    <script src="./cryptojs/components/sha384.js"></script>
+    <script src="./cryptojs/components/ripemd160.js"></script>
+    <script src="./cryptojs/components/hmac.js"></script>
+    <script src="./cryptojs/components/pbkdf2.js"></script>
+    <script src="./cryptojs/components/evpkdf.js"></script>
+    <script src="./cryptojs/components/cipher-core.js"></script>
+    <script src="./cryptojs/components/mode-cfb.js"></script>
+    <script src="./cryptojs/components/mode-ctr.js"></script>
+    <script src="./cryptojs/components/mode-ofb.js"></script>
+    <script src="./cryptojs/components/mode-ecb.js"></script>
+    <script src="./cryptojs/components/pad-ansix923.js"></script>
+    <script src="./cryptojs/components/pad-iso10126.js"></script>
+    <script src="./cryptojs/components/pad-zeropadding.js"></script>
+    <script src="./cryptojs/components/pad-iso97971.js"></script>
+    <script src="./cryptojs/components/pad-nopadding.js"></script>
+    <script src="./cryptojs/components/rc4.js"></script>
+    <script src="./cryptojs/components/rabbit.js"></script>
+    <script src="./cryptojs/components/aes.js"></script>
+    <script src="./cryptojs/components/tripledes.js"></script>
+    <script src="./rijndael.js"></script>
+  </head>
+  <body>
+    <input type="text" id="plain" value="This string should be encrypted the same from .net and javascript." style="width:100%">
+    <p/>
+    <input type="text" id="key" value="52855327-D1DC-4D" placeholder="52855327-D1DC-4D" style="width:100%">
+    <p/>
+    <button id="encrypt" onclick="rijndaelEncrypt()">Encrypt</button>
+    <p/>
+    <label id="encrypted" style="width:100%"></label>
+  </body>
+</html>
